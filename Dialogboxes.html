@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head> Example </head>
+<body>
+  <script type="text/javaScript">
+  function getcan()
+  {
+    var value=confirm("Do you want to continue");
+    if(value==true)
+    {
+      document.write("user want to continue");
+      return true;
+    }else{
+      document.write("Do not want to continue");
+      return false;
+    }
+  }
+  </script>
+</head>
+<p> click on the button if u want to see result</p>
+<form>
+  <input type="button" value="clickme" onclick="getcan()" />
+</form>
+</body>
+</html>
